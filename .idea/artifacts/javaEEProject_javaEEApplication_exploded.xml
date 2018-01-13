@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="javaEEProject:javaEEApplication exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/javaEEProject_javaEEApplication_exploded.ear</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="javaEEProject/javaeeApplication/javaEEApplication" />
+      <element id="artifact" artifact-name="EJB:jar" />
+      <element id="artifact" artifact-name="userview:war" />
+      <element id="artifact" artifact-name="adminview:war" />
+      <element id="directory" name="META-INF" />
+      <element id="directory" name="lib">
+        <element id="archive" name="EJB.jar">
+          <element id="module-output" name="EJB" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/adminview/lib/primefaces-6.1.jar" />
+      </element>
+    </root>
+  </artifact>
+</component>

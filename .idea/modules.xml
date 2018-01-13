@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EJB/EJB.iml" filepath="$PROJECT_DIR$/EJB/EJB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adminview/adminview.iml" filepath="$PROJECT_DIR$/adminview/adminview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaEEProject/javaEEProject.iml" filepath="$PROJECT_DIR$/javaEEProject/javaEEProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/userview/userview.iml" filepath="$PROJECT_DIR$/userview/userview.iml" />
+    </modules>
+  </component>
+</project>

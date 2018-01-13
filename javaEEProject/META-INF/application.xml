@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://java.sun.com/xml/ns/javaee"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_6.xsd"
+             version="6">
+    <display-name>Template</display-name>
+    <module>
+        <ejb>EJB.jar</ejb>
+    </module>
+    <module id="userview-Web">
+        <web>
+            <web-uri>userview_war.war</web-uri>
+            <context-root>userviewWeb</context-root>
+        </web>
+    </module>
+    <module id="adminview-Web">
+        <web>
+            <web-uri>adminview_war.war</web-uri>
+            <context-root>adminviewWeb</context-root>
+        </web>
+    </module>
+</application>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <!--łączenie z bazą przez JTA-->
+    <persistence-unit name="jsfBudget"
+                      transaction-type="JTA">
+        <jta-data-source>java:/jsfBudget/simpleDS</jta-data-source>
+    </persistence-unit>
+
+    <!--łączenie z bazą danych na potrzeby testów jednostokowych-->
+    <!--<persistence-unit name="ProjectTest-jsfBudget" transaction-type="RESOURCE_LOCAL">-->
+        <!--<provider>org.hibernate.ejb.HibernatePersistence</provider>-->
+        <!--<class>pl.ejb.entity.ExpenseEntity</class>-->
+        <!--<class>pl.ejb.entity.ExpenseCategoryEntity</class>-->
+        <!--<class>pl.ejb.entity.IncomeEntity</class>-->
+        <!--<class>pl.ejb.entity.IncomeCategoryEntity</class>-->
+        <!--<class>pl.ejb.entity.SubExpenseCategoryEntity</class>-->
+        <!--<class>pl.ejb.entity.UserEntity</class>-->
+        <!--<class>pl.ejb.entity.UserRoleEntity</class>-->
+        <!--<exclude-unlisted-classes>false</exclude-unlisted-classes>-->
+        <!--<properties>-->
+            <!--<property name="hibernate.connection.url" value="jdbc:mysql://localhost:1434/myfinance"/>-->
+            <!--<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>-->
+            <!--<property name="hibernate.connection.username" value="login"/>-->
+            <!--<property name="hibernate.connection.password" value="haslo"/>-->
+        <!--</properties>-->
+    <!--</persistence-unit>-->
+</persistence>
